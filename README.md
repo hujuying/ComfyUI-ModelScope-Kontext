@@ -14,8 +14,8 @@ This is a custom node for ComfyUI that allows users to perform Image-to-Image ge
 
 ### 🖼️ 节点截图
 
-*（请在这里替换成你自己工作流中节点的截图）*
-![Node Screenshot](https://i.imgur.com/example.png)
+
+![Node Screenshot]([https://i.imgur.com/example.png](https://raw.githubusercontent.com/Onionman61/ComfyUI-ModelScope-Kontext/refs/heads/main/exmple.png))
 
 ### ⚙️ 安装
 
@@ -54,5 +54,6 @@ This is a custom node for ComfyUI that allows users to perform Image-to-Image ge
 -   **图片上传服务**: [freeimage.host](https://freeimage.host/)
 
 ### 📄 许可证
+
 
 本项目采用 [MIT License](LICENSE) 开源。
