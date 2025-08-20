@@ -14,8 +14,9 @@ This is a custom node for ComfyUI that allows users to perform Image-to-Image ge
 
 ### 🖼️ 节点截图
 
+![example-workflow](https://raw.githubusercontent.com/Onionman61/ComfyUI-ModelScope-Kontext/refs/heads/main/exmple.png)
 
-![example-workflow]([https://i.imgur.com/example.png](https://raw.githubusercontent.com/Onionman61/ComfyUI-ModelScope-Kontext/refs/heads/main/exmple.png)
+---
 
 ### ⚙️ 安装
 
@@ -57,4 +58,5 @@ This is a custom node for ComfyUI that allows users to perform Image-to-Image ge
 
 
 本项目采用 [MIT License](LICENSE) 开源。
+
 
