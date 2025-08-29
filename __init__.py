@@ -10,5 +10,5 @@ NODE_CLASS_MAPPINGS = {
 
 # A dictionary that contains the friendly/humanly readable titles for the nodes
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "ModelScopeKontextAPI": "ModelScope Kontext API"
+    "ModelScopeKontextAPI": "ModelScope Kontext API-fix"
 }
