@@ -36,13 +36,13 @@ class ModelScopeKontextAPI:
     FUNCTION = "generate_image"
     CATEGORY = "ModelScope"
 
-    def tensor_to_pil(self, tensor):
-        """Converts a torch tensor (CHW or HWC) to a PIL Image."""
-        image_np = tensor.cpu().numpy().squeeze()
-        if image_np.ndim == 3 and image_np.shape in:
-             image_np = image_np.transpose(1, 2, 0)
-        image_np = (image_np * 255).astype(np.uint8)
-        return Image.fromarray(image_np)
+def tensor_to_pil(self, tensor):
+    """Converts a torch tensor (CHW or HWC) to a PIL Image."""
+    image_np = tensor.cpu().numpy().squeeze()
+    if image_np.ndim == 3:
+        image_np = image_np.transpose(1, 2, 0)
+    image_np = (image_np * 255).astype(np.uint8)
+    return Image.fromarray(image_np)
 
     def pil_to_tensor(self, pil_image):
         """Converts a PIL Image to a torch tensor."""
